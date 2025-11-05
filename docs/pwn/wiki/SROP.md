@@ -7,7 +7,7 @@ tags:
 
 # Sigreturn Oriented Programming
 
-یکی از تکنیک‌های اکسپلویت که از مفهوم **ROP** و سیستم‌کال **Sigreturn** استفاده می‌کند، **Sigreturn-Oriented ROP** نام دارد.
+یکی از تکنیک‌های اکسپلویت که از مفهوم **ROP** و سیستم‌کال [**Sigreturn**](https://man7.org/linux/man-pages/man2/sigreturn.2.html) استفاده می‌کند، **SigreturnOP** یا **SROP** نام دارد.
 
 ## شناخت تکنیک SROP
 
@@ -47,7 +47,7 @@ tags:
 حال که با چیستی و چرایی تکنیک **ROP Sigreturn** آشنا شدیم، به چگونگی استفاده از آن خواهیم پرداخت.
 
 بدین منظور از (حداقل) یک چالش CTF در جهت انتقال مفاهیم بهره خواهیم برد:
-- **چالش laconic** از مسابقه HTB 2025
+- [**چالش laconic**](https://writeups.fmc.tf/pwn/writeups/2025/HackTheBox/Laconic/Laconic/) از مسابقه HTB 2025
 
 
 ## منابع
